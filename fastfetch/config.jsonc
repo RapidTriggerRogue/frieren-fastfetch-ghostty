@@ -1,0 +1,182 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty",
+    "position": "left",
+    "source": "~/.config/fastfetch/frieren.png",
+    "width": 38,
+    "height": 28,
+    "padding": {
+      "top": 1,
+      "left": 2,
+      "right": 4
+    }
+  },
+  "display": {
+    "separator": " ➜  ",
+    "color": {
+      "separator": "magenta"
+    },
+    "bar": {
+      "char": {
+        "elapsed": "━",
+        "total": "─"
+      },
+      "border": {
+        "left": "",
+        "right": ""
+      },
+      "width": 12
+    },
+    "percent": {
+      "type": 3,
+      "color": {
+        "green": "green",
+        "yellow": "yellow",
+        "red": "red"
+      }
+    }
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "\u001b[1;35m╭─────────────────────────── \u001b[1;36m✨ 葬送のフリーレン ✨\u001b[1;35m ───────────────────────────╮\u001b[0m"
+    },
+    {
+      "type": "title",
+      "key": "  󰀄 Magician  ",
+      "keyColor": "magenta",
+      "color": {
+        "user": "bold_cyan",
+        "at": "white",
+        "host": "bold_magenta"
+      }
+    },
+    {
+      "type": "os",
+      "key": "  󰣇 OS        ",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "kernel",
+      "key": "  󰌽 Kernel    ",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "host",
+      "key": "  󰌢 Board     ",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "uptime",
+      "key": "  󰅐 Journey   ",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "packages",
+      "key": "  󰏖 Grimoires ",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[1;34m├────────────────────────── \u001b[1;37m󰧨 Desktop & Shell\u001b[1;34m ───────────────────────────┤\u001b[0m"
+    },
+    {
+      "type": "de",
+      "key": "  󰕮 Desktop   ",
+      "keyColor": "blue"
+    },
+    {
+      "type": "wm",
+      "key": "  󱂬 Compositor",
+      "keyColor": "blue"
+    },
+    {
+      "type": "wmtheme",
+      "key": "  󰉼 Theme     ",
+      "keyColor": "blue"
+    },
+    {
+      "type": "shell",
+      "key": "  󰆍 Shell     ",
+      "keyColor": "blue"
+    },
+    {
+      "type": "terminal",
+      "key": "  󰞷 Terminal  ",
+      "keyColor": "blue"
+    },
+    {
+      "type": "terminalfont",
+      "key": "  󰛖 Font      ",
+      "keyColor": "blue"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[1;36m├───────────────────────── \u001b[1;37m󰍛 Arcane Hardware\u001b[1;36m ────────────────────────────┤\u001b[0m"
+    },
+    {
+      "type": "cpu",
+      "key": "  󰻠 CPU       ",
+      "keyColor": "cyan",
+      "temp": true
+    },
+    {
+      "type": "gpu",
+      "key": "  󰢮 GPU       ",
+      "keyColor": "cyan",
+      "temp": true
+    },
+    {
+      "type": "vulkan",
+      "key": "  󰠠 Vulkan    ",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "memory",
+      "key": "  󰍛 Mana (RAM)",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "swap",
+      "key": "  󰓡 Swap      ",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "disk",
+      "key": "  󰋊 Storage   ",
+      "keyColor": "cyan",
+      "folders": "/"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[1;32m├─────────────────────── \u001b[1;37m󰍹 Displays & Peripherals\u001b[1;32m ───────────────────────┤\u001b[0m"
+    },
+    {
+      "type": "display",
+      "key": "  󰍹 Monitors  ",
+      "keyColor": "green",
+      "compactType": "original-with-refresh-rate"
+    },
+    {
+      "type": "sound",
+      "key": "  󰓃 Audio     ",
+      "keyColor": "green"
+    },
+    {
+      "type": "localip",
+      "key": "  󰩟 LAN IP    ",
+      "keyColor": "green",
+      "compact": true
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[1;35m╰────────────────────────────────────────────────────────────────────────╯\u001b[0m"
+    },
+    {
+      "type": "colors",
+      "paddingLeft": 24,
+      "symbol": "circle"
+    }
+  ]
+}
